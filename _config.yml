@@ -1,0 +1,15 @@
+name: "jpk.io"
+description: "my adventures with vim"
+
+author: "Justin Kenyon"
+
+url: "http://jpk.io"
+baseurl: ""
+
+markdown: rdiscount
+permalink: :year/:month/:title.html
+pygments: true
+
+# Google Analytics
+ga_domain: jpk.io
+ga_tracking_id: UA-47727049-1
