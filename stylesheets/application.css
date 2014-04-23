@@ -1,0 +1,52 @@
+#name {
+  font-family: 'Grand Hotel', serif;
+  font-size: 8em;
+  margin-left:2cm;
+  float: left;
+  color: #499ed9;
+}
+p {
+  color: white;
+  font-family: 'Lustria', serif;
+  font-size: 3em;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5em;
+  margin-left:2cm;
+  margin-top:2cm;
+  clear: left;
+}
+.bigbox {
+  margin-left:2cm;
+  margin-top:2cm;
+  float:left;
+}
+img {
+  height: auto;
+  width: auto;
+  max-height: 150px;
+  -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.2), inset 0 4px 5px rgba(0,0,0,.6), inset 0 1px 0 rgba(0,0,0,.6);
+  -moz-box-shadow: 0 1px 0 rgba(255,255,255,.2), inset 0 4px 5px rgba(0,0,0,.6),rgba inset 0 1px 0 rgba(0,0,0,.6);
+  box-shadow: 0 1px 0 rgba(255,255,255,.255), inset 0 4px 5px rgba(0,0,0,.6), inset 0 1px 0 rgba(0,0,0,.6);
+  -webkitkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+body {
+  background:
+  radial-gradient(black 15%, transparent 16%) 0 0,
+  radial-gradient(black 15%, transparent 16%) 8px 8px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+  background-color:#282828;
+  background-size:16px 16px;
+}
+a {
+  color: white;
+  font-family: 'Grand Hotel', serif;
+  font-size: 2em;
+} 
+a:link {color: #499ed9;text-decoration:none;}
+a:visited {color: #499ed9;text-decoration:none;}
+a:hover {color: #499ed9;text-decoration:none;}
+a:active {color: #499ed9;text-decoration:none;}
+
