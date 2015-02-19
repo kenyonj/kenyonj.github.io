@@ -1,12 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Lustria);
 
-#name {
-  font-size: 3em;
-  margin-left:2cm;
-  float: left;
-  color: #499ed9;
-  padding: 20px 0px 20px 0px;
+body {
+  font-family: "Lustria", serif;
 }
+
+a {
+  color: #499ED9;
+  text-decoration: none;
+}
+
 p {
   color: gray;
   font-size: 2em;
@@ -15,12 +17,15 @@ p {
   clear: left;
 }
 
-body {
-  font-family: 'Lustria', serif;
+#name {
+  font-size: 3em;
+  margin-left:2cm;
+  float: left;
+  color: #499ed9;
+  padding: 20px 0px 20px 0px;
 }
 
-a:link {color: #499ed9;text-decoration:none;}
-a:visited {color: #499ed9;text-decoration:none;}
-a:hover {color: #499ed9;text-decoration:none;}
-a:active {color: #499ed9;text-decoration:none;}
-
+#pgp-key {
+  display: none;
+  clear: left;
+}
