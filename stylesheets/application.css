@@ -17,6 +17,23 @@ p {
   clear: left;
 }
 
+.small {
+  font-size: 1em;
+}
+
+.smaller {
+  font-size: .75em;
+}
+
+a.hotline {
+  color: gray;
+}
+
+footer {
+  position: absolute;
+  bottom: 30px;
+}
+
 #name {
   font-size: 3em;
   margin-left:2cm;
